@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilActivity"
+    android:background="@drawable/bgakh">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        android:textColor="#574b3d"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/hasilnama"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        android:textColor="#574b3d"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/hasilalamat"
+        android:layout_below="@id/hasilnama"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        android:textColor="#574b3d"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/hasilburger"
+        android:layout_below="@id/hasilalamat"/>
+
+    <TextView
+        android:id="@+id/hasilrasa"
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        android:textColor="#574b3d"
+        android:textStyle="bold"
+        android:layout_below="@id/hasilburger"/>
+
+
+</RelativeLayout>
